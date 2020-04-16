@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "Model"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Model": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "info": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "models"
+}
